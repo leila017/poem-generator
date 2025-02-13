@@ -30,10 +30,12 @@ form {
 }
 .submit-button {
   border-radius: 40px;
-  border: 2px solid #f0f3f5;
+  border: none;
   font-size: 14px;
-  border-right: 2px solid #32a852;
-  border-left: 2px solid #32a852;
+  background-color: #32a852;
+  color: #fff;
+  width: 20%;
+  margin-left: 10px;
 }
 .poem {
   padding: 25px;

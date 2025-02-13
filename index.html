@@ -4,41 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Poem Generator</title>
+    <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to my Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Please choose poem topic"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        roses are red
-        <br />
-        violets are blue
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/leila017" target="_blank">Leila Nortje</a> and
-      is
-      <a href="https://github.com/leila017/poem-generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and hosted on
-      <a href="https://poem-generator-ln.netlify.app/" target="_blank"
-        >Netlify.</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Please choose poem topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="insert"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          roses are red..
+          <br />
+          violets are blue
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/leila017" target="_blank">Leila Nortje</a>
+        and is
+        <a href="https://github.com/leila017/poem-generator" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and hosted on
+        <a href="https://poem-generator-ln.netlify.app/" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

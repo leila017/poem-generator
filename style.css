@@ -12,7 +12,7 @@ h1 {
   line-height: 1.6;
 }
 form {
-  padding: 25px;
+  padding: 20px;
   background-color: white;
   margin: auto 50px;
   border: none;
@@ -43,7 +43,7 @@ form {
   margin: 20px 50px;
   border-radius: 13px;
   border-left: 3px solid #32a852;
-  line-height: 23px;
+  line-height: 20px;
   font-size: 17px;
   box-shadow: 10px 10px 20px rgba(223, 203, 203, 0.2);
 }

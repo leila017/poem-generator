@@ -11,13 +11,21 @@ h1 {
   font-weight: 800;
   line-height: 1.6;
 }
-form {
-  padding: 20px;
+.form-generator {
+  padding: 18px;
   background-color: white;
   margin: auto 50px;
   border: none;
   border-radius: 13px;
   box-shadow: 10px 10px 20px rgba(223, 203, 203, 0.2);
+}
+.hint {
+  opacity: 0.6;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+form {
   display: flex;
 }
 .insert {
@@ -38,7 +46,7 @@ form {
   margin-left: 10px;
 }
 .recipe {
-  padding: 25px;
+  padding: 20px;
   background-color: white;
   margin: 20px 50px;
   border-radius: 13px;
@@ -53,4 +61,18 @@ a {
 footer {
   text-align: center;
   font-size: 12px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
